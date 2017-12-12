@@ -5,6 +5,7 @@ body{
     padding:0;
     margin:0;
     background-color:#bca6ae;
+    color:#ffffff;
 }
 
 /* Global */
@@ -34,6 +35,16 @@ ul{
     margin-bottom:10px;
 }
 
+a{
+    color:#ffffff;
+    text-decoration:none;
+}
+
+a:hover{
+    color:#000000;
+    text-decoration:italic;
+}
+
 /* Header */
 header{
     background:#99868d;
@@ -43,18 +54,14 @@ header{
     border-bottom:#ffffff 1px dashed;
 }
 
-header a{
-    color:#ffffff;
-    text-decoration:none;
-    text-transform:uppercase;
-    font-size:12px;
-}
 
 
 header li{
     float:left;
     display:inline;
     padding:0 20px 0 20px;
+    text-transform:uppercase;
+    font-size:12px;
 }
 
 header #branding{
@@ -63,6 +70,7 @@ header #branding{
 
 header #branding h1{
     margin:0;
+    color:#ffffff;
 }
 
 header nav{
@@ -76,11 +84,7 @@ header .highlight, header .current a{
     font-weight:bold;
 }
 
-header a:hover{
-    color:#000000;
-    text-decoration-style:wavy;
-    text-decoration:italic;
-}
+
 
 /*Showcase*/
 
@@ -116,7 +120,7 @@ header a:hover{
 
 #newsletter form{
     float:right;
-    margin-top:20px;
+    margin-top:40px;
 }
 
 #newsletter input[type=email]{
@@ -149,20 +153,38 @@ aside #sidebar{
     width:30%;
     margin-top:10px;
 }
-
-article #col{
-    float:left;
-    width:65%;
+p{
+   color:#ffffff;
+   font-border;#ffffff
 }
-
-main #a{
+main a{
     color: #000000;
+    
 }
+
+li{
+    color:#ffffff;
+}
+
+h1{
+    color:#ffffff;
+    text-shadow:2px 2px #000000;
+    font-size:30px;
+}
+
+h3{
+    color:#ffffff;
+}
+
 
 main #input[type=suggestion]{
-    padding:4px;
+    /*padding:4px;*/
     height:25px;
-    width:25%;
+    width:30%;
+}
+
+.inputThing{
+    width:100%;
 }
 
 footer{
